@@ -1,0 +1,137 @@
+.logo-entre-panes-animacion{
+    animation: girarLogo 5s infinite;
+}
+
+
+@keyframes girarLogo{
+    0%{
+        opacity: 1;
+        transform: rotatey(0deg);
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: rotatey(360deg);
+    }
+}
+
+.punto-1{
+    animation: opaccityPunto1 1.5s forwards;
+}
+
+@keyframes opaccityPunto1{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.punto-2{
+    animation: opaccityPunto2 1.5s forwards;
+}
+
+@keyframes opaccityPunto2{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.punto-3{
+    animation: opaccityPunto3 3s forwards;
+}
+
+@keyframes opaccityPunto3{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cargando{
+    animation: opacityDivCarg 3s forwards;
+}
+
+@keyframes opacityDivCarg{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+header, .menu-item{
+    animation: opacityHeadMenu 3s forwards;
+}
+
+@keyframes opacityHeadMenu{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.item-categ .desc-item-categ{
+    transition: .8s;
+    transform-origin: left;
+    transform: perspective(0px) translate(0px);
+    opacity: 0;
+}
+
+.item-categ:hover .desc-item-categ{
+    
+    transition: .8s;
+    transform-origin: left;
+    transform: translate(0px);
+    opacity: 1;
+}

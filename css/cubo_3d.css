@@ -1,0 +1,81 @@
+
+@media only screen and (min-width: 720px)  {
+    .container_cube{
+        perspective: 800px;
+        margin: 0 auto;
+        width: 50%;
+        height: 100%;
+    }
+
+    .cube{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50vh 25vw;
+        transform-style: preserve-3d;
+        animation: girarCubo;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .face{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+    }
+
+    .h4Face{
+        padding-bottom: 10px;
+        background-color: rgb(151, 98, 0);
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    div.front{
+        background-image: url("../img/Bondiola.jfif");
+        transform: translateZ(150px);
+    }
+
+    div.back{
+        background-image: url("../img/DobleCarne.jfif");
+        transform: translateZ(-150px);
+    }
+
+    div.top{
+        background-image: url("../img/DobleCuarto.jfif");
+        transform: translateY(-150px) rotateX(90deg);
+    }
+
+    div.bottom{
+        background-image: url("../img/Pechuga.jfif");
+        transform: translateY(150px) rotateX(90deg) rotateY(180deg);
+    }
+
+    div.right{
+        background-image: url("../img/TapaAsado.jfif");
+        transform: translateX(150px) rotateY(-270deg);
+    }
+
+    div.left{
+        background-image: url("../img/TNT.jfif");
+        transform: translateX(-150px) rotateY(270deg);
+    }
+
+    @keyframes girarCubo{
+        from{
+            transform: rotateZ(0deg) ;
+        }to{
+            transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg);
+        }
+
+    }
+}
+
+@media only screen and (max-width: 720px)  {
+    .container_cube, .face{
+        opacity: 0;
+        margin-bottom: -30px;
+    }
+}

@@ -1,0 +1,209 @@
+@media only screen and (min-width: 720px)  {
+    .menu{
+        position: fixed;
+    }
+
+    .svg-btn-menu{
+        background-color: rgb(151, 98, 0);
+        border-radius: 100px;
+        border: solid  rgb(65, 63, 63);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .menu_link{
+        text-decoration: none;
+        color: rgb(245, 236, 219);
+    }
+
+    .menu_link:hover{
+        background-color: rgb(65, 63, 63);
+        color: rgb(245, 236, 219); 
+    }
+
+    .nav-bar{
+        position: fixed;
+        padding: 10px;
+        display: block;
+        font-size: 1.5em;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .menu, .submenu{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu{
+        background-color: rgb(151, 98, 0);
+        width: 25%;
+        margin-left: -100%;
+        transition: all .5s;
+        margin-top: 90px;
+        border: solid  rgb(65, 63, 63);
+        z-index: 1;
+    }
+
+    .menu_link{
+        display: block;
+        padding: 20px;
+        font-size: 1.2em;
+    }
+
+    .submenu{
+        height: 0;
+        overflow: hidden;
+        transition: all .5s;
+    }
+
+    .menu_item{
+        border-top: solid  rgb(65, 63, 63);
+    }
+
+    .menu_item_1{
+        border-top: none;
+    }
+
+    .submenu_btn{
+        cursor: pointer;
+    }
+
+    .submenu .menu_link{
+        padding-left: 40px;
+    }
+
+    .mostrar{
+        animation: mostrarMenu .5s forwards;
+    }
+
+    .girarSvgMenuMostrandoMenu{
+        animation: girarSvgMenuMostrandoMenu .5s forwards;
+    }
+
+    @keyframes mostrarMenu{
+        0%{
+            margin-left: -100%;
+        }
+        100%{
+            margin-left: 35px;
+        }
+    }
+
+    @keyframes girarSvgMenuMostrandoMenu{
+        0%{
+            transform: rotateY(0deg);
+        }
+        100%{
+            transform: rotateY(180deg);
+        }
+    }
+}
+
+@media only screen and (max-width: 720px)  {
+    .menu{
+        position: fixed;
+    }
+    
+    .svg-btn-menu{
+        background-color: rgb(151, 98, 0);
+        border-radius: 100px;
+        border: solid  rgb(65, 63, 63);
+        margin: 0px;
+    }
+    
+    .menu_link{
+        text-decoration: none;
+        color: rgb(245, 236, 219);
+    }
+
+    .menu_link:hover{
+        background-color: rgb(65, 63, 63);
+        color: rgb(245, 236, 219); 
+    }
+    
+    .nav-bar{
+        position: fixed;
+        padding: 10px;
+        display: block;
+        font-size: 1.5em;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .menu, .submenu{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu{
+        background-color: rgb(151, 98, 0);
+        width: 100%;
+        margin-left: -100%;
+        transition: all .5s;
+        margin-top: 60px;
+        border: solid  rgb(65, 63, 63);
+        z-index: 1;
+    }
+
+    .menu_link{
+        display: block;
+        padding: 20px;
+        font-size: 1.2em;
+    }
+
+    .submenu{
+        height: 0;
+        overflow: hidden;
+        transition: all .5s;
+    }
+    .nav-fijo{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    .menu_item{
+        border-top: solid  rgb(65, 63, 63);
+    }
+
+    .menu_item_1{
+        border-top: none;
+    }
+
+    .submenu_btn{
+        cursor: pointer;
+    }
+
+    .submenu .menu_link{
+        padding-left: 40px;
+    }
+
+    .mostrar{
+        animation: mostrarMenu .5s forwards;
+    }
+
+    .girarSvgMenuMostrandoMenu{
+        animation: girarSvgMenuMostrandoMenu .5s forwards;
+    }
+
+    @keyframes mostrarMenu{
+        0%{
+            margin-left: -100%;
+        }
+        100%{
+            margin-left: 0px;
+        }
+    }
+
+    @keyframes girarSvgMenuMostrandoMenu{
+        0%{
+            transform: rotateY(0deg);
+        }
+        100%{
+            transform: rotateY(180deg);
+        }
+    }
+}

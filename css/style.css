@@ -1,0 +1,655 @@
+body{
+    background-color: rgb(34, 33, 33);
+}
+
+.img-portada{
+    text-align: center;
+}
+
+@media only screen and (min-width: 720px)  {
+
+    .cargando{
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 8%;
+    }
+
+    .logo-hamb-cargando{
+        width: 300px;
+        height: 300px;
+    }
+
+    .puntos-cagando{
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-portada{
+        position: absolute;
+        text-align: start;
+        z-index: 1;
+        margin-top: -7px;
+    }
+    
+    .img-port{
+        padding-left: 12%;
+        width: 1200px;
+    }
+
+    .tit-portada{
+        font-size: 100px;
+        color: rgb(245, 236, 219);
+        text-align: center;
+        margin-top: -20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .menu-items{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 580px;
+        margin-left: 12%;
+        width: 1000px;
+    }
+
+    .menu-item{
+        color: rgb(34, 33, 33);
+        text-align: center;
+        background-color: rgb(245, 236, 219);
+        width: 300px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .menu-item:hover{
+        background-color: rgb(65, 63, 63);
+        color: rgb(245, 236, 219);
+    }
+
+    .logo-entre-panes{
+        width: 180px;
+    }
+
+    .logo-entre-panes-nav{
+        width: 50px;
+    }
+
+    .h4-item-menu{
+        padding-top: 8px;
+    }
+
+    .bg-dark{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-nav{
+        color:  rgb(245, 236, 219);
+        width: 300px;
+    }
+
+    .item-nav:hover{
+        background-color: rgb(65, 63, 63);
+        color: rgb(245, 236, 219);
+    }
+
+    .logo-nav{
+        margin-right: 650px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-items: end;
+    }
+
+    .titulo-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .titulo-logo-portada{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 463px;
+        margin-left: 10%;
+
+    }
+
+    .tit-portada{
+        margin-top: -10px;
+    }
+
+    .titulo{
+        margin-top: -15px;
+        font-size: 100px;
+        color: rgb(245, 236, 219);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .categoria{
+        text-align: center;
+        background-color: rgb(221, 144, 2);
+    }
+
+    .categoria-promo{
+        text-align: center;
+        background-color: rgb(39, 151, 39);
+    }
+
+    .text-categ{
+        margin-top: 5px;
+    }
+    
+
+    .items-categ{
+        display: grid;
+        grid-template-columns: 320px 320px 320px;
+        grid-column-gap: 2px;
+        text-align: center;
+        align-items: center;
+        margin-left: 75px;
+        margin-top: 25px;
+    }
+
+    .item-categ{
+        background-color: rgb(245, 236, 219);
+        margin-top: 2px;
+        width: 320px;
+        height: 390px;
+    }
+
+    .img-cat{
+        width: 300px;
+        height: 300px;
+    }
+
+    .desc-item-categ{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(65, 63, 63);
+        color: rgb(221, 144, 2);
+        font-size: 20px;
+        width: 300px;
+        height: 300px;
+        margin-top: -300px;
+        margin-left: 10px;
+    }
+
+    .precio{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        color: rgb(7, 5, 5);
+        background-color: rgb(221, 144, 2);
+        border-radius: 100px;
+        padding-top: 10px;
+        width: 80px;
+    }
+
+    .precio-promo{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        color: rgb(7, 5, 5);
+        background-color: rgb(39, 151, 39);
+        border-radius: 100px;
+        padding-top: 10px;
+        width: 80px;
+    }
+
+    .nombre-item-categ{
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        color: rgb(65, 63, 63);
+        justify-content: center;
+        margin-bottom: -5px;
+    } 
+
+    .h6-desc{
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(221, 144, 2);
+        margin-top: 25px;
+    }
+
+
+    .redesSocialesFooter{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        padding-top: 10px;
+    }
+
+    .facebookFooter, .instagramFooter{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    .twitterFooter{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    .youtubeFooter{
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .linkFooter{
+        text-decoration: none;
+        color: rgb(65, 63, 63);
+    }
+
+    .linkFooter:hover{
+        color: rgb(34, 33, 33);
+    }
+
+    .politicasFooter{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .politicasFooter1, .politicasFooter2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .privacidadFooter, .defensaFooter, .proteccionFooter, .contactoFooter{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .desc-info-cont{
+        color: rgb(221, 144, 2);
+        margin-top: 25px;
+    }
+    .div-lab-cont{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .inp-con{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(245, 236, 219);
+    }
+
+    .labelCont{
+        color: rgb(245, 236, 219);
+    }
+
+    .inp-msj-con{
+        height:  90px;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-contacto{
+        margin-top: 35px;
+    }
+
+    .img-cont{
+        position: absolute;
+        background-size: calc(100% + let(--x)/2);
+    }
+
+    .inp-btn-cont{
+        border-radius: 60px;
+        border: solid  rgb(65, 63, 63);
+        height: 50px;
+        width: 150px;
+        background-color: rgb(151, 98, 0);
+        color: rgb(245, 236, 219);
+        margin-top: 10px;
+        
+    }
+
+    .hamb-carg{
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 410px;
+    }
+
+    .puntos-carg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        width: 250px;
+        margin-left: 436px;
+        margin-top: -80px;
+    }
+}
+
+@media only screen and (max-width: 720px)  {
+
+    .logo-hamb-cargando{
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        margin-left: 15%;
+    }
+
+    .puntos-cagando{
+        width: 50px;
+        height: 50px;;
+    }
+
+    .hamb-carg{
+        position: absolute;
+    }
+
+    .puntos-carg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        width: 300px;
+        margin-top: 150px;
+        margin-left: 11.5%;
+    }
+
+    .img-portada{
+        text-align: start;
+        padding-left: 2%;
+        width: 400px;
+    }
+
+    .img-port{
+        width: 100%;
+    }
+
+    .titulo-logo-portada{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 400px;
+        padding-left: 4.7%;
+    }
+
+    .tit-portada{
+        font-size: 40px;
+        margin-top: -10px;
+        color: rgb(245, 236, 219);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .menu-items{
+        display: flex;
+        flex-direction: column;
+        padding-top: 12px;;
+    }
+
+    .menu-item{
+        color: rgb(34, 33, 33);
+        text-align: center;
+        background-color: rgb(245, 236, 219);
+        width: 400px;
+        height: 30px;
+        border-radius: 50px;
+        margin-bottom: 5px;
+    }
+
+    .menu-item:hover{
+        background-color: rgb(65, 63, 63);
+        color: rgb(245, 236, 219);
+    }
+
+    .logo-entre-panes{
+        width: 50px;
+    }
+
+    .logo-entre-panes-nav{
+        width: 50px;
+    }
+
+    .h4-item-menu{
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .bg-dark{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-nav{
+        color:  rgb(245, 236, 219);
+        width: 300px;
+    }
+
+    .item-nav:hover{
+        background-color: rgb(65, 63, 63);
+        color: rgb(245, 236, 219);
+    }
+
+    .logo-nav{
+        margin-right: 650px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-items: end;
+    }
+
+    .titulo-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .titulo{
+        margin-top: -10px;
+        font-size: 40px;
+        color: rgb(245, 236, 219);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .categoria{
+        text-align: center;
+        background-color: rgb(221, 144, 2);
+    }
+
+    .categoria-promo{
+        text-align: center;
+        background-color: rgb(39, 151, 39);
+    }
+
+    .text-categ{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .items-categ{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .item-categ{
+        background-color: rgb(245, 236, 219);
+        margin: 2.5px;
+        width: 260px;
+        height: 320px;
+    }
+
+    .img-item-categ{
+        margin-bottom: -30px;
+        width: 250px;
+        height: 250px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .img-cat{
+        width: 250px;
+        height: 250px;
+    }
+
+    .desc-item-categ{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        background-color: rgb(65, 63, 63);
+        color: rgb(221, 144, 2);
+        font-size: 20px;
+        width: 250px;
+        height: 250px;
+        margin-top: -220px;
+        margin-left: 5px;
+        position: absolute;
+    }
+
+    .precio{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        color: rgb(7, 5, 5);
+        background-color: rgb(221, 144, 2);
+        border-radius: 100px;
+        padding-top: 10px;
+        width: 80px;
+    }
+
+    .precio-promo{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        color: rgb(7, 5, 5);
+        background-color: rgb(39, 151, 39);
+        border-radius: 100px;
+        padding-top: 10px;
+        width: 80px;
+    }
+
+    .nombre-item-categ{
+        display: flex;
+        flex-direction: column;
+        height: 40px;
+        margin-top: 10px;
+        color: rgb(65, 63, 63);
+        justify-content: center;
+    }
+    
+    .h4-nomb-cat{
+        font-size: 18px;
+    }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(221, 144, 2);
+        margin-top: 25px;
+    }
+
+
+    .redesSocialesFooter{
+        display: flex;
+        flex-direction: row;
+        margin-left: 25%;
+        padding-top: 10px;
+    }
+
+    .facebookFooter, .instagramFooter{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    .twitterFooter{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    .youtubeFooter{
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .linkFooter{
+        text-decoration: none;
+        color: rgb(65, 63, 63);
+    }
+
+    .linkFooter:hover{
+        color: rgb(34, 33, 33);
+    }
+
+    .politicasFooter{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 700px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .desc-info-cont{
+        color: rgb(221, 144, 2);
+        margin-top: 25px;
+    }
+    .div-lab-cont{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .inp-con{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(245, 236, 219);
+    }
+
+    .labelCont{
+        color: rgb(245, 236, 219);
+    }
+
+    .inp-msj-con{
+        height:  90px;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-contacto{
+        margin-top: 35px;
+    }
+
+    .img-cont{
+        position: absolute;
+        background-size: calc(100% + let(--x)/2);
+    }
+
+    .inp-btn-cont{
+        border-radius: 60px;
+        border: solid  rgb(65, 63, 63);
+        height: 50px;
+        width: 150px;
+        background-color: rgb(151, 98, 0);
+        color: rgb(245, 236, 219);
+        margin-top: 10px;
+        
+    }
+}
